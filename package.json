@@ -1,0 +1,52 @@
+{
+  "name": "@requestly/rq-automation",
+  "version": "1.0.0",
+  "description": "Package for using Requestly in automation testing frameworks like Selenium, Playwright, and Puppeteer.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/requestly/requestly-automation.git"
+  },
+  "author": "Requestly <contact@requestly.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/requestly/requestly-automation/issues"
+  },
+  "homepage": "https://requestly.com/",
+  "engines": {
+    "node": ">=v18.20.8"
+  },
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "requestly",
+    "selenium",
+    "webdriver",
+    "chrome",
+    "playwright",
+    "puppeteer",
+    "modify",
+    "headers",
+    "request headers",
+    "response headers",
+    "redirect",
+    "redirect network requests",
+    "delay",
+    "delay network requests",
+    "throttle",
+    "throttle network requests"
+  ],
+  "peerDependencies": {
+    "selenium-webdriver": "^4.0.0",
+    "playwright": "^1.0.0",
+    "puppeteer": "^24.0.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^138.0.3",
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.34.0",
+    "playwright": "^1.54.1",
+    "puppeteer": "^24.14.0"
+  }
+}
